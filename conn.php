@@ -1,6 +1,6 @@
 <?php 
 
-$con = mysqli_connect("localhost","thasalco_jogo","99879800","thasalco_jogo");
+$con = mysqli_connect("localhost","exemplo_user","exemplo_pass","exemplo_db");
 if (mysqli_connect_errno()){
 	echo "Falha na conexão MySQL: " . mysqli_connect_error();
 }
